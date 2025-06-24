@@ -1,5 +1,4 @@
-# 🧵 Thread Programs Collection
-
+#  Thread Programs Collection
 
 
 ## `thread_programs/multiple_threads.c`
@@ -108,12 +107,6 @@ int main()
 
 ```
 
-## `thread_programs/server.log`
-
-```c
-FILE *log_file = fopen("server.log", "a");
-fprintf(log_file, "[%s] Client says: %s\n", time_str, buffer);
-fclose(log_file);
 
 
 ```
